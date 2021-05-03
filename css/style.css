@@ -130,8 +130,7 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-    cursor: pointer;
+    /* cursor: pointer; */
     
 }
 
@@ -147,7 +146,6 @@ img{
     background-color: var(--first-color);
     transition: .5s;
     z-index: 1;
-    
 }
 
 .nav_close{
@@ -161,7 +159,6 @@ img{
 
 .nav_item{
     margin-bottom: var(--mb-4);
-    
 }
 
 .nav_link{
@@ -181,6 +178,7 @@ img{
     color: var(--first-color-darken);
     font-size: 1.3rem;
     cursor: pointer;
+    
 }
 
 /*=== Show menu ===*/
@@ -652,7 +650,7 @@ img{
         }
         .nav_menu{
             left: 0;
-            overflow: hidden;
+            
         }
         .home_container{
             height: 100vh;
